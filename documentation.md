@@ -63,5 +63,5 @@ Ofrecemos programas de alimentación automatizados que se entregan de lunes a vi
 ### 5.1 ¿Cómo se entregan los alimentos?
 Los platillos se envían en recipientes biodegradables y térmicos. Pueden consumirse directamente o calentarse en microondas (retirando la tapa) durante 1.5 a 2 minutos.
 
-### 5.2 ¿Qué ocurriría si no estoy en casa al momento de la entrega?
+### 5.2 ¿Qué ocurre si no estoy en casa al momento de la entrega?
 El repartidor esperará un máximo de 10 minutos. Si no se logra la entrega, el pedido regresará a la central y podrá ser reprogramado con un costo adicional de reenvío.
