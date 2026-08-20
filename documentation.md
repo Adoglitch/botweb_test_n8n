@@ -1,87 +1,67 @@
-# Guía Oficial de Usuario y Funcionamiento: SaaS "FlowPulse"
+# Guía Operativa y de Menú: "NutriVita"
 
-**Versión del Sistema:** 2.4  
+**Versión:** 1.0  
 **Última actualización:** Agosto 2026  
-**Categoría:** Plataforma de Automatización de Flujos y Métrica de Procesos
+**Categoría:** Servicio de Comida Saludable y Orgánica a Domicilio
 
 ---
 
-## 1. Introducción a FlowPulse
+## 1. Sobre NutriVita
 
-FlowPulse es una plataforma SaaS diseñada para centralizar, monitorear y optimizar la ejecución de flujos de trabajo en empresas digitales. Permite conectar distintas herramientas operativas para medir cuellos de botella en tiempo real y reducir tareas repetitivas mediante reglas automatizadas.
+NutriVita es un restaurante y servicio de suscripción de comida 100% orgánica y balanceada. Elaboramos todos nuestros platillos con supervisión de nutricionistas para ofrecer opciones adaptadas a diferentes metas físicas: pérdida de grasa, mantenimiento y aumento de masa muscular.
 
-### 1.1 Requisitos del Sistema
-* Navegador web moderno (Google Chrome 110+, Mozilla Firefox 115+, Safari 16+).
-* Conexión a internet estable con un ancho de banda mínimo de 5 Mbps.
-* Cuenta activa con rol de **Administrador** o **Editor** para crear flujos.
-
----
-
-## 2. Gestión de Usuarios y Permisos
-
-Para mantener la seguridad de la información organizativa, FlowPulse estructura los accesos mediante un sistema de Roles Basados en Permisos (RBAC).
-
-### 2.1 Roles Disponibles
-* **Owner (Propietario):** Acceso total a la facturación, integración de pasarelas de pago y eliminación de la organización.
-* **Admin (Administrador):** Puede invitar miembros, modificar permisos, crear y eliminar flujos de trabajo, y gestionar llaves de API.
-* **Editor:** Puede crear, modificar y ejecutar flujos de trabajo, pero no tiene acceso a la configuración global de la cuenta.
-* **Viewer (Observador):** Solo lectura. Puede ver métricas y paneles de control sin modificar ninguna automatización.
-
-### 2.2 Cómo Invitar un Nuevo Usuario
-1. Dirígete al menú lateral izquierdo y haz clic en **Ajustes de Organización**.
-2. Selecciona la pestaña **Miembros y Equipo**.
-3. Haz clic en el botón azul **Invitar Miembro**.
-4. Ingresa el correo electrónico del usuario y asigna el rol correspondiente.
-5. Haz clic en **Enviar Invitación**. El usuario recibirá un enlace con validez de 72 horas.
+### 1.1 Políticas de Envío y Tiempos de Entrega
+* **Zonas de cobertura:** Entrega a domicilio disponible en toda la zona metropolitana.
+* **Horarios de entrega:**
+  * Almuerzos: De 11:30 AM a 2:00 PM (pedidos realizados antes de las 10:00 AM).
+  * Cenas: De 6:00 PM a 8:30 PM (pedidos realizados antes de las 4:00 PM).
+* **Costo de envío:** Gratuito en pedidos superiores a $20.00 USD. Para montos inferiores, la tarifa plana es de $2.50 USD.
 
 ---
 
-## 3. Configuración de Integraciones y Webhooks
+## 2. Menú Principal y Macro-Nutrientes
 
-FlowPulse permite conectar aplicaciones externas para recibir y enviar datos mediante Webhooks y llaves de API de forma segura.
+Todos nuestros platillos incluyen el desglose exacto de calorías y macronutrientes.
 
-### 3.1 Crear una Llave de API (API Key)
-1. Ve a **Ajustes > Integraciones > API Keys**.
-2. Presiona el botón **Generar Nueva Clave**.
-3. Asigna un nombre descriptivo (ejemplo: *Integración CRM Producción*).
-4. Copia la clave generada inmediatamente. **Nota:** Por motivos de seguridad, la clave solo se mostrará una vez.
-
-### 3.2 Configuración de Webhooks Entrantes
-Los Webhooks permiten que sistemas externos ejecuten disparadores dentro de FlowPulse en tiempo real.
-
-1. Dentro de tu panel, navega a **Automatizaciones > Webhooks Entrantes**.
-2. Haz clic en **Crear Webhook**.
-3. Asigna un nombre al Webhook y selecciona el evento que escuchará (ejemplo: `order.created` o `user.signup`).
-4. Copia la **URL de destino** proporcionada por FlowPulse y pégala en la configuración del servicio externo.
-5. Haz clic en **Guardar y Probar**.
+### 2.1 Platillos Destacados
+1. **Bowl Salmón Keto ($12.99 USD):**
+   * *Ingredientes:* Salmón fresco a la plancha, aguacate, edamames, espinacas y aderezo de sésamo bajo en carbohidratos.
+   * *Información Nutricional:* 480 kcal | 32g Proteína | 35g Grasas saludables | 8g Carbohidratos.
+2. **Bowl Quinoa & Veggies ($9.50 USD):**
+   * *Ingredientes:* Base de quinoa real, garbanzos asados, camote al horno, kale y hummus artesanal.
+   * *Información Nutricional:* 390 kcal | 15g Proteína | 12g Grasas saludables | 58g Carbohidratos.
+3. **Pollo Fit con Espárragos ($11.00 USD):**
+   * *Ingredientes:* Pechuga de pollo a la parrilla, espárragos salteados en aceite de oliva virgen extra y arroz integral.
+   * *Información Nutricional:* 510 kcal | 42g Proteína | 10g Grasas saludables | 45g Carbohidratos.
 
 ---
 
-## 4. Facturación, Planes y Cancelación
+## 3. Planes Nutricionales Semanales
 
-FlowPulse ofrece distintos planes adaptados al volumen de tareas ejecutadas al mes.
+Ofrecemos programas de alimentación automatizados que se entregan de lunes a viernes.
 
-### 4.1 Cambiar de Plan o Añadir Tareas Extra
-* **Plan Starter:** Incluye hasta 10,000 tareas mensuales y 3 usuarios.
-* **Plan Pro:** Incluye hasta 100,000 tareas mensuales, usuarios ilimitados y soporte prioritario.
-* **Plan Enterprise:** Tareas ilimitadas, servidor dedicado y SLA garantizado del 99.9%.
+### 3.1 Tipos de Plan
+* **Plan Pérdida de Peso (Deficit):** 3 comidas diarias (almuerzo, cena y snack) ajustadas a un promedio de 1,400 - 1,600 kcal diarias.
+* **Plan Rendimiento Fit (Hypertrophy):** 3 comidas principales más 2 snacks proteicos, ajustados a un promedio de 2,200 - 2,500 kcal diarias.
+* **Plan Flexi-Vegetariano:** Enfocado en proteínas de origen vegetal (tofu, legumbres, seitán) y huevos orgánicos.
 
-Para cambiar tu plan, ve a **Ajustes > Facturación > Cambiar Plan**, selecciona el plan deseado y confirma los datos de tu tarjeta de crédito o débito.
-
-### 4.2 Proceso de Cancelación de Suscripción
-Si deseas cancelar el servicio, la solicitud debe realizarse antes de la fecha de corte mensual:
-
-1. Ve al apartado **Ajustes > Facturación**.
-2. Desplázate hasta la parte inferior y selecciona **Cancelar Suscripción**.
-3. Selecciona el motivo de tu salida y presiona **Confirmar Cancelación**.
-4. Tu cuenta permanecerá activa hasta el final del periodo de facturación vigente, tras lo cual pasará a modo *Solo Lectura* durante 30 días antes de la depuración final de datos.
+### 3.2 Pausa y Cancelación de Planes
+* **Pausar un plan:** Puedes pausar las entregas sin costo notificando con un mínimo de 24 horas de anticipación desde el panel de usuario o vía soporte.
+* **Cancelación:** La cancelación de una suscripción semanal o mensual aplica un reembolso proporcional por los días no consumidos.
 
 ---
 
-## 5. Preguntas Frecuentes y Solución de Problemas
+## 4. Alérgenos y Personalización de Platillos
 
-### 5.1 ¿Qué ocurre si excedo el límite de tareas de mi plan?
-Si superas el límite asignado en tu ciclo mensual, las automatizaciones no se detendrán. El sistema aplicará una tarifa de sobrecosto automáticamente de $0.002 USD por cada tarea adicional ejecutada y se reflejará en tu siguiente factura.
+* **Sustitución de ingredientes:** Si eres alérgico a los frutos secos, mariscos, lactosa o gluten, puedes indicar tus restricciones al realizar el pedido para sustituir el ingrediente por una alternativa equivalente sin costo adicional.
+* **Certificación:** Nuestra cocina cuenta con áreas separadas para la preparación de platillos sin gluten, evitando la contaminación cruzada.
 
-### 5.2 Error 401 Unauthorized en Webhooks
-Este error ocurre cuando la llamada HTTP no incluye el encabezado de autenticación correcto. Asegúrate de enviar la cabecera `Authorization: Bearer TU_API_KEY` en cada petición HTTP hacia la API de FlowPulse.
+---
+
+## 5. Preguntas Frecuentes
+
+### 5.1 ¿Cómo se entregan los alimentos?
+Los platillos se envían en recipientes biodegradables y térmicos. Pueden consumirse directamente o calentarse en microondas (retirando la tapa) durante 1.5 a 2 minutos.
+
+### 5.2 ¿Qué ocurre si no estoy en casa al momento de la entrega?
+El repartidor esperará un máximo de 10 minutos. Si no se logra la entrega, el pedido regresará a la central y podrá ser reprogramado con un costo adicional de reenvío.
