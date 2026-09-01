@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Llamar Webhook
         run: |
-          curl -X POST https://rural-jessica-shorts-aware.trycloudflare.com/webhook/f9df7885-2905-4f82-a169-333a410fc70b/webhook/github-update
+          curl -X POST https://rural-jessica-shorts-aware.trycloudflare.com/webhook/github-update
     
