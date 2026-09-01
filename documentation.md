@@ -1,7 +1,7 @@
 # Guía Operativa y de Menú: "NutriVita"
 
 **Versión:** 1.0.1 
-**Última actualización:** Agosto 2026  
+**Última actualización:** Septiembre 2026  
 **Categoría:** Servicio de Comida Saludable y Orgánica a Domicilio
 
 ---
