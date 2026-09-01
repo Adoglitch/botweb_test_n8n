@@ -11,5 +11,7 @@ jobs:
     steps:
       - name: Llamar Webhook
         run: |
-          curl -X POST https://rural-jessica-shorts-aware.trycloudflare.com/webhook/github-update
+          curl -X POST https://rural-jessica-shorts-aware.trycloudflare.com/webhook/github-update \
+            -H "Content-Type: application/json" \
+            -d '{"event": "documentation_updated", "file": "documentation.md"}
     
